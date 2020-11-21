@@ -1,0 +1,50 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+/*Editando o body*/
+body{
+     background-image: url("fundo1.jpg");
+     background-position: 50% 70%;
+     color: white;
+     font-family: arial;
+}
+/*Editando o input*/
+input{
+     display: block;
+     height: 55px;
+     width: 400px;
+     margin: 10px;
+     border-radius: 30px;
+     border: 1px solid black;
+     font-size: 16pt;
+     padding: 10px 20px;
+     background-color: rgba(255, 255, 255, 0.01);
+     color: white;
+     outline: none;
+
+}
+/*Editando o form*/
+div#corpo-form{
+    /*background-color: red;*/
+     width: 420px;
+     margin: 150px auto 0px auto;
+}
+/*Editando o h1*/
+div#corpo-form h1{
+     width: 180px;
+     margin: 30px auto 0px 120px;
+     color: white;
+     text-align: center;
+     padding: 20px;
+}
+
+/*Editando o Submit*/
+input[type=submit]{
+     width: 180px;
+     margin: 30px auto 0px 135px;
+     background-color: #007FFF;
+     border: none;
+     cursor: pointer;
+
+}
